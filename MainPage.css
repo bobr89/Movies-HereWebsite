@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("pictures/w1.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.row{
+	margin-right: -15px;
+	margin-left: -15px;
+
+}
+
+.col-md-8, .col-md-6{
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.inner{
+	padding-top: 25vh;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.main h1{
+	font-size: 100px;
+	letter-spacing: 12px;
+	margin: 10px;
+	font-family: inherit;
+	line-height: 1.1;
+	font-weight: 300;
+	color: #F0F0F0;
+}
+
+.fadeInDown{
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+}
+
+.animated{
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+.fadeInUp, .fadeInDown, .fadeInLeft{
+	visibility: visible;
+}
+
+.delay-05s{
+	animation-delay: .5s;
+	-webkit-animation-delay: .5s;
+}
+
+.main h1 span{
+	color: #fff;
+	display: inline-block;
+}
+
+.main p{
+	letter-spacing: 1px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.learn-more-btn{
+	background: #333;
+	padding: 20px 40px;
+	-webkit-border-radius: 5px;
+	color: #fff;
+	letter-spacing: 1px;
+	display: inline-block;
+	box-shadow: 0 3px 0 0 #666;
+	margin: 60px 0 0 45%;
+	font-weight: 700;
+}
+
+.learn-more-btn:hover, .learn-more-btn:focus{
+	background: #444;
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover, a:focus{
+	text-decoration: none;
+}
+
+.shadowPink{
+	color: white;
+	font: bold 52px Helvetica, Arial, Sans-Serif;
+	text-shadow: 1px 1px #666699,
+				 2px 2px #666699,
+				 3px 3px #666699;
+}
+
+.shadowPink{
+	position: relative;
+	top: -3px;
+	left: -3px;
+	text-shadow: 1px 1px #666699,
+				 2px 2px #666699,
+				 3px 3px #666699,
+				 4px 4px #666699,
+				 5px 5px #666699,
+				 6px 6px #666699;
+}
+
+.shadowGrey{
+	color: white;
+	font: bold 52px Helvetica, Arial, Sans-Serif;
+	text-shadow: 1px 1px #222,
+				 2px 2px #222,
+				 3px 3px #222;
+}
+
+.shadowGrey:hover{
+	position: relative;
+	top: -3px;
+	left: -3px;
+	text-shadow: 1px 1px #222,
+				 2px 2px #222,
+				 3px 3px #222,
+				 4px 4px #222,
+				 5px 5px #222,
+				 6px 6px #222;
+}
+
+/*First two line*/
+
+@media (min-width: 992px)
+.col-md-offset-2{
+	margin-left: 16.66666667%;
+}
+
+@media (min-width: 992px)
+.col-md-8{
+	width: 66.66666667%;
+}
+
+@media (min-width: 992px)
+.col-md-offset-3{
+	margin-left: 25%;
+}
+
+@media (min-width: 992px)
+.col-md-6{
+	width: 50%;
+}
+
+@media (min-width: 992px)
+.col-md-4, .col-md-6, .col-md-8{
+	float: left;
+}
