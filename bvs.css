@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("pictures/img1.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.backgroundColorWhite{
+	background-color: #888;
+}
+
+.inner{
+	padding-top: 5vh;
+}
+
+.textColorWhite{
+	color: #fff;
+}
+
+.videoPadding{
+	padding-top: 45px;
+}
