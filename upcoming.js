@@ -1,8 +1,9 @@
 var imagecount = 1;
-var total = 5;
+var total = 4;
 
 function slide(x) {
 	var Image = document.getElementById('img');
+	var Extentsion = document.getElementById('extension');
 	imagecount = imagecount + x;
 	if (imagecount > total){
 		imagecount = 1;
@@ -11,6 +12,7 @@ function slide(x) {
 		imagecount = total;
 	}
 	Image.src = "pictures/img" + imagecount +".jpg";
+	Extentsion.href = "upcomingExtentsion/index" + imagecount +".html";
 }
 
 window.setInterval(function slideA() {
@@ -23,4 +25,5 @@ window.setInterval(function slideA() {
 		imagecount = total;
 	}
 	Image.src = "pictures/img" + imagecount +".jpg";
+	Extentsion.href = "upcomingExtentsion/index" + imagecount + ".html";
 	},5000);

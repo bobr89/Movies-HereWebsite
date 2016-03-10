@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border box;
+}
+
+.backgroundColorGrey{
+	background-color: #333;
+}
+
+.col-md-4{
+	position: relative;
+	min-height: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.text-center{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+
+.row h1{
+	font-size: 60px;
+	font-weight: 200;
+	color: #fff;
+}
+
+.pictures{
+	padding-top: 20px;
+}
+
+.inner{
+	padding-top: 25px;
+}
+
+@media (min-width: 992px)
+.col-xs-12{
+	padding-left: 50px;
+	float: left;
+}

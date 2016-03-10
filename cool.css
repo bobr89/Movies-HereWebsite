@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.space{
+	text-align: center;
+	color: #333;
+	margin: 400px 0;
+}
+
+.backgroundDark{
+	background-color: #222;
+}
+
+.parallax1{
+	background: url("pictures/b.jpg") no-repeat center center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 50px 0;
+}
+
+.parallax2{
+	background: url("pictures/img2.jpg") no-repeat center center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 50px 0;
+}
+
+.parallax3{
+	background: url("pictures/img3.jpg") no-repeat center center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 50px 0;
+}
+
+.parallax4{
+	background: url("pictures/img4.jpg") no-repeat center center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 50px 0;
+}
+
+.parallax-inner{
+	padding-top: 12%;
+	padding-bottom: 12%;
+}
+
+.textAlign{
+	text-align: center;
+}
+
+.title{
+	color: #fff;
+	font-size: 100px;
+	font-weight: 400px;
+	padding-left: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.quotes{
+	color: #fff;
+	font-size: 60px;
+	font-family: impact, charcoal, sans-serif;
+	line-height: 50px;
+}
+
+.author{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 100px;
+	font-family: 'Century Gothic, sans-serif';
+}
+
+/*Responsive*/
+

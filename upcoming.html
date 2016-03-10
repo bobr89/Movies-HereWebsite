@@ -29,10 +29,10 @@
 				    <!-- Collect the nav links, forms, and other content for toggling -->
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				      <ul class="nav navbar-nav navbar-right text">
-				        <li><a href="#">What's Upcoming</a></li>
-				        <li><a href="#">Reviews</a></li>
-				        <li><a href="#">Cool Quotes</a></li>
-				        <li><a href="#">Go see a movie</a></li>
+				        <li><a href="hashtag.html">HashTag#</a></li>
+				        <li><a href="upcoming.html">What's Upcoming</a></li>
+				        <li><a href="calendar.html">SuperMovies</a></li>
+				        <li><a href="cool.html">Cool Quotes</a></li>
 				      </ul>
 				    </div><!-- /.navbar-collapse -->
 				  </div><!-- /.container-fluid -->
@@ -40,12 +40,14 @@
 			</container>
 		</header>
 
-		<div id="container">
-			<a href="upcomingExtentsion/index1.html" id="extension">
+		<div class="container" id="container">
+			<div class="row">
+				<div id="left_holder"><img onClick="slide(-1)" class="left" src="pictures/arrowLeft.png"/></div>
+				<a href="upcomingExtentsion/index1.html" id="extension">
 				<img src="pictures/img1.jpg" id="img"/>
-			</a>
-			<div id="left_holder"><img onClick="slide(-1)" class="left" src="pictures/arrowLeft.png"/></div>
-			<div id="right_holder"><img onClick="slide(1)" class="right" src="pictures/arrowRight.png"/></div>
+				</a>
+				<div id="right_holder"><img onClick="slide(1)" class="right" src="pictures/arrowRight.png"/></div>
+			</div>
 		</div>
 	</body>
 </html>
