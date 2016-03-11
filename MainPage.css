@@ -144,8 +144,12 @@ a:hover, a:focus{
 	padding: 90px 0 100px;
 }
 
+.like{
+	align="middle";
+}
+
 .inner1{
-	padding-top: 510px;
+	padding-top: 100vh;
 }
 
 .backgroundColorWhite{
@@ -181,6 +185,12 @@ a:hover, a:focus{
 
 .main a{
 	transition: all .5s;
+}
+
+/*Facebook*/
+
+.like{
+	
 }
 
 /*First two line*/

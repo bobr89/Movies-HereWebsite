@@ -1,18 +1,16 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Upcoming</title>
-		<link rel="stylesheet" href="upcoming.css">
-		<script type="text/javascript" src="upcoming.js"></script>
+		<title>Upcoming</title>		
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		<link rel="stylesheet" href="upcoming.css">
 	</head>
 
-	<body onLoad="slideA()">
-		<header class="navbar-inverse">
+	<body>
+		<header class="navbar-inverse navbar-static-top nav">
 			<div class="container">
 				  <div class="container-fluid">
 				    <!-- Brand and toggle get grouped for better mobile display -->
@@ -29,25 +27,46 @@
 				    <!-- Collect the nav links, forms, and other content for toggling -->
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				      <ul class="nav navbar-nav navbar-right text">
-				        <li><a href="hashtag.html">HashTag#</a></li>
+				      	<li><a href="hashtag.html">HashTag#</a></li>
 				        <li><a href="upcoming.html">What's Upcoming</a></li>
 				        <li><a href="calendar.html">SuperMovies</a></li>
 				        <li><a href="cool.html">Cool Quotes</a></li>
 				      </ul>
 				    </div><!-- /.navbar-collapse -->
 				  </div><!-- /.container-fluid -->
-				</nav>
-			</container>
+			</div>
 		</header>
 
-		<div class="container" id="container">
-			<div class="row">
-				<div id="left_holder"><img onClick="slide(-1)" class="left" src="pictures/arrowLeft.png"/></div>
-				<a href="upcomingExtentsion/index1.html" id="extension">
-				<img src="pictures/img1.jpg" id="img"/>
-				</a>
-				<div id="right_holder"><img onClick="slide(1)" class="right" src="pictures/arrowRight.png"/></div>
-			</div>
-		</div>
+		<p id="start">A short time ago in a browser very, very close&hellip;</p>
+
+		<h1>STAR WARS<sub>Super Movies</sub></h1>
+
+		<div id="titles">
+			<div id="titlecontent">
+
+				<p class="center">EPISODE IV<br />
+					A NEW HOPE FOR COMIC BOOK MOVIES</p>
+
+				<p class="center">It is a super year for movies.</p>
+
+				<p>#Deadpool - February 12, 2016<br /><br />
+					Based upon Marvel Comics' most uncommon anti-hero, DEADPOOL tells the origin story of former Special Forces operative turned mercenary Wade Wilson, who after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.</p>
+
+	            <p>#Batman v Superman: Dawn of Justice - March 25 2016<br /><br />
+	            	From director Zack Snyder comes "Batman v Superman: Dawn of Justice," starring Ben Affleck as Batman/Bruce Wayne and Henry Cavill as Superman/Clark Kent in the characters' first big-screen pairing. Fearing the actions of a god-like Super Hero left unchecked, Gotham City's own formidable, forceful vigilante takes on Metropolis's most revered, modern-day savior, while the world wrestles with what sort of hero it really needs. And with Batman and Superman at war with one another, a new threat quickly arises, putting mankind in greater danger than it's ever known before.</p>
+
+	            <p>#Captain America: Civil War - May 6, 2016<br /><br />
+	            	One year after the events of Avengers: Age of Ultron, another international incident involving the Avengers results in collateral damage, prompting politicians to form a system of accountability and a governing body to determine when to call in the team. When Steve Rogers attempts to protect his friend Bucky Barnes from government hit squads, his efforts bring him into conflict with Tony Stark. This results in the fracturing of the avengers into two opposing factions while they attempt to protect the world from a new enemy.</p>
+
+	            <p>#X-Men: Apocalypse - May 27, 2016<br /><br />
+	            	Since ancient times the first and most powerful mutant, Apocalypse—immortal and invincible—has been worshipped as a god. But when Apocalypse awakens from hibernation and decides to end humanity, Raven and Charles Xavier lead a team of young X-Men to face Apocalypse and defeat him.</p>
+
+           		<p>Pursued by the Super Year, movie lovers races to the nearest cinema, custodian of the excitement for all comic book movies that can save the planet and restore freedom to the galaxy....</p>
+
+           	</div>
+        </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
 	</body>
 </html>
