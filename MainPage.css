@@ -35,7 +35,6 @@ body{
 }
 
 .main h1{
-	font-size: 100px;
 	letter-spacing: 12px;
 	margin: 10px;
 	font-family: impact, charcoal, sans-serif;
@@ -187,35 +186,39 @@ a:hover, a:focus{
 	transition: all .5s;
 }
 
+.center-block{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /*Facebook*/
 
 .like{
 	
 }
 
-/*First two line*/
+/*Copyright*/
 
-@media (min-width: 992px)
-.col-md-offset-2{
-	margin-left: 16.66666667%;
+footer{
+	padding: 30px 0;
+	background-color: #333;
+	margin: 30px 0 0 0;
 }
 
-@media (min-width: 992px)
-.col-md-8{
-	width: 66.66666667%;
+p.copyright{
+	margin: 15px 0 0;
 }
 
-@media (min-width: 992px)
-.col-md-offset-3{
-	margin-left: 25%;
+.text-muted{
+	color: #fff;
 }
 
-@media (min-width: 992px)
-.col-md-6{
-	width: 50%;
+.d{
+	color: #fff;
+	text-decoration: none;
 }
 
-@media (min-width: 992px)
-.col-md-4, .col-md-6, .col-md-8{
-	float: left;
+.d:hover{
+	color: #888;
+	text-decoration: none;
 }

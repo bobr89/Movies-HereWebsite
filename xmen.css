@@ -36,3 +36,34 @@ body{
 .textColorSilver{
 	color: #808080;
 }
+
+.title{
+	color: #fff;
+	font-family: impact, charcoal, sans-serif;
+}
+
+/*Copyright*/
+
+footer{
+	padding: 30px 0;
+	background-color: #333;
+	margin: 30px 0 0 0;
+}
+
+p.copyright{
+	margin: 15px 0 0;
+}
+
+.text-muted{
+	color: #fff;
+}
+
+.d{
+	color: #fff;
+	text-decoration: none;
+}
+
+.d:hover{
+	color: #888;
+	text-decoration: none;
+}

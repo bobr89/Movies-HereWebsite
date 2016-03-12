@@ -86,4 +86,29 @@
 	font-family: 'Varela Round', sans-serif;
 }
 
+/*Copyright*/
+
+footer{
+	padding: 30px 0;
+	background-color: #333;
+}
+
+p.copyright{
+	margin: 15px 0 0;
+}
+
+.text-muted{
+	color: #fff;
+}
+
+.d{
+	color: #fff;
+	text-decoration: none;
+}
+
+.d:hover{
+	color: #888;
+	text-decoration: none;
+}
+
 
