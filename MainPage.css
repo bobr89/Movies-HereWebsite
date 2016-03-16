@@ -200,9 +200,24 @@ a:hover, a:focus{
 	margin-right: 20px;
 }
 
+
+
 .posterPadding{
 	padding-right: 30px;
 	padding-bottom: 20px;
+}
+
+.focus:hover{
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
 }
 
 /*Facebook*/
@@ -252,3 +267,5 @@ p.copyright{
 	height: 100%;
 	width: 100%;
 }
+
+
