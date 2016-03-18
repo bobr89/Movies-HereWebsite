@@ -111,4 +111,10 @@ p.copyright{
 	text-decoration: none;
 }
 
+@media screen and (max-width: 1024px){
+	.parallax1, .parallax2, .parallax3, .parallax4{
+	background-attachment: scroll;
+	}
+}
+
 
